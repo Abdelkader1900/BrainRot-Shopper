@@ -1,19 +1,19 @@
-# BrainRot-Shopper
+---
+name: MERN Shop - Concept du projet
+description: Site d'administration de boutique en ligne pour démontrer la maîtrise de la stack MERN
+type: project
+---
 
-## ( EN COURS DE DEVELOPPEMENT )
+Panel d'administration de boutique en ligne :
+- Gérer un catalogue de produits (CRUD complet)
+- Interface moderne avec Chakra UI v2, dark mode
+- Projet vitrine pour démontrer les compétences MERN
 
-Fullstack MERN
+**État actuel :**
+- Backend Node/Express configuré avec CRUD complet sur /api/products
+- Frontend React + Vite en cours : Navbar, HomePage, CreatePage
+- Zustand pour le state management (useProductStore)
+- React Router v6 pour la navigation (/, /create)
 
-Un idle game sous forme de shop en ligne. Le joueur gagne de la monnaie en cliquant, qu'il dépense pour acheter des brainrots (personnages/mèmes internet). Chaque brainrot possédé génère passivement de la monnaie au fil du temps, permettant d'en acheter de plus en plus puissants.
-
-Stack technique :
-
-MongoDB — stockage des produits (brainrots), utilisateurs et leur inventaire
-Express — API REST (CRUD complet sur les produits)
-React — interface du shop et du jeu (à venir)
-Node.js — serveur backend avec ES Modules
-Fonctionnalités :
-
-Catalogue de brainrots achetables
-Système de monnaie virtuelle (clicker + génération passive)
-Inventaire joueur avec revenus calculés selon les brainrots possédés
+**Why:** Projet d'apprentissage et vitrine des compétences MERN stack
+**How to apply:** Le projet est un simple admin panel CRUD, pas de logique idle game. Suggérer des solutions simples et directes.
