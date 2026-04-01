@@ -16,4 +16,4 @@ Panel d'administration de boutique en ligne :
 - React Router v6 pour la navigation (/, /create)
 
 **Why:** Projet d'apprentissage et vitrine des compétences MERN stack
-**How to apply:** Le projet est un simple admin panel CRUD, pas de logique idle game. Suggérer des solutions simples et directes.
+
