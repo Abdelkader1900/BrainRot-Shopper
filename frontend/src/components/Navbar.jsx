@@ -2,10 +2,12 @@ import { Button, Container, Flex, HStack, Text, useColorMode, useColorModeValue 
 import { PlusSquareIcon } from '@chakra-ui/icons'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useProductStore } from '../../store/product'
 
 const Navbar = () => {
 
     const {colorMode, toggleColorMode} = useColorMode();
+    const {products} = useProductStore();
 
   return (
     <Container maxW={"1140px"} px={4} bg={useColorModeValue("gray.100", "gray.900")}>
